@@ -9,7 +9,9 @@ int checkEvenOdd(int num){
    }
    
    int main(){
-   	int num =6;
+   	int num;
+   	cout<<"Enter your number: "<<endl;
+   	cin>>num;
    	if(checkEvenOdd(num))
    	    cout<<num<<" is even."<<endl;
    	else
